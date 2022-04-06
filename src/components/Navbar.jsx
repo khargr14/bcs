@@ -23,8 +23,8 @@ const Navbar = () => {
                 <ul className='hidden md:flex'>
                     <li> Home </li>
                     <li> About </li>
-                    <li> Commercial Cleaning </li>
-                    <li> Facities Served </li>
+                    <li> Facilities Served </li>
+                    <li> Commercial Cleaning </li>                     
                     <li> Contact </li>
                 </ul>
             {/* </div> */}
