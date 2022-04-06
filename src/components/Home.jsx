@@ -7,10 +7,10 @@ const Home = () => {
         <div name='home' className='w-full h-screen bg-[#e2edfd]'>
 
             {/* Container */}
-            <div className='max-w[1000px] mx-auto px-20 flex flex-col justify-center h-full'>
-                <p className='text-4xl- sm:text-4xl text-[#565f69]'>What We Do</p>
-                <h2 className='text-4xl- sm:text-7xl font-bold text-[#565f69] '> Commercial Janitorial Services</h2>
-                <p className='text-4xl- sm:text-3xl  text-[#565f69] py-4 max-w-[700]'> Cleanliness is appreciated by everyone, and by providing a safe and healthy workplace during this challenging time, our commercial cleaning services are helpful to your business and employees. In addition to being healthier, efficient janitorial cleaning keeps facilities'
+            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full  '>
+                <p className='  text-stone-300]> '>What We Do</p>
+                <h1 className='text-4xl- sm:text-4xl font-bold text-[#565f69] py-4 max-w-[700] '> Commercial Janitorial Services</h1>
+                <p className='text-4xl- sm:text-xl font-bold text-[#565f69] py-4 max-w-[700]'> Cleanliness is appreciated by everyone, and by providing a safe and healthy workplace during this challenging time, our commercial cleaning services are helpful to your business and employees. In addition to being healthier, efficient janitorial cleaning keeps facilities'
                     assets secure, employees productive, and customers coming back.  </p>
 
                 <div>
