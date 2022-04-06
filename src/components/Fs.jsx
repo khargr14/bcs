@@ -5,6 +5,7 @@ import mc from '../assets/mc.jpg'
 import oc from '../assets/oc.jpg'
 import other from '../assets/other.jpg'
 import rc from '../assets/rc.jpg'
+import { Link } from 'react-scroll';
 
 const Fs = () => {
     return (
@@ -31,16 +32,11 @@ const Fs = () => {
                   Educational Facilites
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                < Link to='contact'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Demo
+                      Contact
                     </button>
-                  </a>
-                  <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Code
-                    </button>
-                  </a>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -54,16 +50,11 @@ const Fs = () => {
                   Government Buildings
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg'>
-                      Demo
+                < Link to='contact'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Contact
                     </button>
-                  </a>
-                  <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-stone-600 font-bold text-lg'>
-                      Code
-                    </button>
-                  </a>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -79,16 +70,11 @@ const Fs = () => {
                   Medical Facilities
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                < Link to='contact'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Demo
+                      Contact
                     </button>
-                  </a>
-                  <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Code
-                    </button>
-                  </a>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -102,16 +88,11 @@ const Fs = () => {
                   Office Cleaning
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>
-                      Demo
-                    </button>
-                  </a>
-                  <a href='/'>
+                < Link to='contact'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Code
+                      Contact
                     </button>
-                  </a>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -126,16 +107,11 @@ const Fs = () => {
                   Religious Facilities
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                < Link to='contact'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Demo
+                      Contact
                     </button>
-                  </a>
-                  <a href='/'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Code
-                    </button>
-                  </a>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -149,16 +125,16 @@ const Fs = () => {
                   Other type of facilities
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                < Link to='contact'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Demo
+                      Contact
                     </button>
-                  </a>
-                  <a href='/'>
+                  {/* </a> */}
+                  {/* <a href='/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Code
-                    </button>
-                  </a>
+                      Contact
+                    </button> */}
+                  </Link>
                 </div>
               </div>
             </div>
