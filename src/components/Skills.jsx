@@ -21,27 +21,27 @@ const Skills = () => {
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-150 mx-auto' src={skill1} alt="skill1 icon" />
-                        <p className='my-4'>Skill1</p>
+                        <p className='my-4'>Hospital-Grade Disinfectants</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-100 mx-auto' src={skill2} alt="skill2 icon" />
-                        <p className='my-4'>Skill2</p>
+                        <p className='my-4'>Electrostatic Cleaning</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-100 mx-auto' src={skill3} alt="skill icon" />
-                        <p className='my-4'>skill3T</p>
+                        <p className='my-4'>Sanitizing</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-100 mx-auto' src={skill4} alt="skill icon" />
-                        <p className='my-4'>skill4</p>
+                        <p className='my-4'>Dusting</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-100 mx-auto' src={skill5} alt="skill icon" />
-                        <p className='my-4'>skill5</p>
+                        <p className='my-4'>Floor & Carpet Care</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-100 mx-auto' src={skill6} alt="skill icon" />
-                        <p className='my-4'>skill6</p>
+                        <p className='my-4'>And More...</p>
                     </div>
                 </div>
                 </div>
