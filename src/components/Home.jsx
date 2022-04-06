@@ -4,17 +4,21 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Home = () => {
     return (
-        <div name='Home' className='w-full h-screen bg-[#e2edfd]'>
+        <div name='home' className='w-full h-screen bg-[#e2edfd]'>
 
             {/* Container */}
-            <div className='max-w[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <div className='max-w[1000px] mx-auto px-20 flex flex-col justify-center h-full'>
                 <p className='text-4xl- sm:text-4xl text-[#565f69]'>What We Do</p>
                 <h2 className='text-4xl- sm:text-7xl font-bold text-[#565f69] '> Commercial Janitorial Services</h2>
-                <p className='text-4xl- sm:text-3xl  text-[#565f69]'> Cleanliness is appreciated by everyone, and by providing a safe and healthy workplace during this challenging time, our commercial cleaning services are helpful to your business and employees. In addition to being healthier, efficient janitorial cleaning keeps facilities'
+                <p className='text-4xl- sm:text-3xl  text-[#565f69] py-4 max-w-[700]'> Cleanliness is appreciated by everyone, and by providing a safe and healthy workplace during this challenging time, our commercial cleaning services are helpful to your business and employees. In addition to being healthier, efficient janitorial cleaning keeps facilities'
                     assets secure, employees productive, and customers coming back.  </p>
 
                 <div>
-                    <button> VIEW FACILITIES SERVED <HiArrowNarrowRight /></button>
+                    <button className='text-blue group border-2 px-6 py-3 my-2 flex items-center hover:bg-slate-300 hover:border-slate-300'> VIEW FACILITIES SERVED 
+                    <span className='group-hover:rotate-90 duration-300'>
+                    <HiArrowNarrowRight className='ml-3' />
+                    </span>
+                    </button>
                 </div>
             </div>
         </div>
