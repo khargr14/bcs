@@ -38,7 +38,7 @@ const Navbar = () => {
                         About
                     </Link> </li>
                 <li>
-                    <Link to='fs ' smooth={true} duration={500}>
+                    <Link to='Fs' smooth={true} duration={500}>
                         Facilities Served
                     </Link></li>
                 <li>
@@ -89,7 +89,7 @@ const Navbar = () => {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0b2853] '>
                         <a className='flex justify-between items-center w-full text-white'
-                            href='https://www.facebook.com/Bowdens-cleaning-service-247008322041984/'>
+                            href='https://getform.io/f/a8cde2a8-d65d-4d9c-8661-41555ee2a233'>
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
