@@ -88,10 +88,15 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0b2853] '>
-                        <a className='flex justify-between items-center w-full text-white'
+                    <Link className='flex justify-between items-center w-full text-white' to='contact' smooth={true} duration={500}>
+                        Email <HiOutlineMail size={30} />
+                    </Link>
+
+                        {/* <a className='flex justify-between items-center w-full text-white'
                             href='https://getform.io/f/a8cde2a8-d65d-4d9c-8661-41555ee2a233'>
-                            Email <HiOutlineMail size={30} />
-                        </a>
+                           
+                            
+                        </a> */}
                     </li>
                 </ul>
             </div>
